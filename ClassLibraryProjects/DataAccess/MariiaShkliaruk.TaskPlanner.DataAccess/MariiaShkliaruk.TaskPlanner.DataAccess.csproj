@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\MariiaShkliaruk.TaskPlanner.Domain.Models\MariiaShkliaruk.TaskPlanner.Domain.Models.csproj" />
+    <ProjectReference Include="..\MariiaShkliaruk.TaskPlanner.DataAccess.Abstractions\MariiaShkliaruk.TaskPlanner.DataAccess.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
